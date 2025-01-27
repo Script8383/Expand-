@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("coldz hub", "BloodTheme")
+
+local Misc = Window:NewTab("info")
+local Section = Misc:NewSection("info")
+local Misc = Window:NewTab("👤players")
+local Section = Misc:NewSection("players!")
+Misc:NewSection("")
+
+Section:NewButton("10 walkspeed", "change walkspeed", function()
+    game.players.LocalPlayer.Character.Humanold.walkspeed •• 10
+end)
